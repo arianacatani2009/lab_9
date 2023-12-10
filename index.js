@@ -23,24 +23,24 @@ app.get('/integrantes',(req,res)=>{
             "nombre": "Nataly ",
             "apellido": "Casillas",
              "carrera":"Desarrollo de software"
-        }
+        },
           {
             "nombre": "Dilan",
             "apellido": "Obando",
              "carrera":"Desarrollo de software"
-        }
-                {
+        },
+        {
             "nombre": "Cristhian ",
             "apellido": "Pañora",
              "carrera":"Desarrollo de software"
-        }
-                      {
+        },
+        {
             "nombre": "Ariana",
             "apellido": "Catani",
              "carrera":"Desarrollo de software"
-        }                   
-    )}
-    )]
+        },                  
+    )},
+    );
 // Ruta GET para la presentación de productos
 app.get('/productos', (req, res) => {
     res.send('Información de productos');
